@@ -2,9 +2,7 @@ const newTwtBtn = document.querySelectorAll('[data-testid="SideNav_NewTweet_Butt
 
 newTwtBtn.addEventListener('click', () => {
   const newTwtPopin = document.getElementsByClassName('r-1potc6q')[0];
-  console.log( document.getElementsByClassName('r-1potc6q'))
   newTwtPopin.addEventListener('mousedown', dragMouseDown);
-  console.log(newTwtPopin)
 });
 
 function dragMouseDown(e) {
